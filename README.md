@@ -1,92 +1,87 @@
-# ⚙️ LogiLang — A Logic-Oriented Programming Language
+# ⚙️ LogiLang — Building a Programming Language from Scratch
 
+## Overview
 
-### Overview
+**LogiLang** is an open-source educational project focused on learning how to design and build a programming language entirely from scratch.
 
-**LogiLang** is an open-source programming language designed for **logical reasoning**, **digital circuits simulation**, and **educational use**.  
-It aims to help learners understand how logic gates, boolean algebra, and circuit operations work in a simple, readable syntax.
+The project is a hands-on exploration of programming language design, compiler theory, parsing techniques, and language implementation. It aims to cover the fundamental stages of building a language, from defining its syntax and grammar to implementing an interpreter and exploring future compiler development.
 
-This project is a personal exploration into **language design**, **compiler theory**, and **digital logic**.  
-It is **fully open source**, and contributions, discussions, and suggestions are welcome!
+LogiLang is designed as a **logic-oriented programming language**, providing a practical foundation for experimenting with boolean expressions, logical operations, and digital logic concepts.
 
+## Concept
 
-### Concept
+The primary goal of LogiLang is to understand how programming languages work internally by implementing their core components from the ground up, rather than relying on existing language frameworks or parser generators.
 
-Unlike traditional programming languages that focus on general-purpose computing,  
-**LogiLang** focuses on **logical flow**, **truth evaluation**, and **digital signal simulation**.
+The language will begin with a minimal set of features and gradually evolve as its lexer, parser, and interpreter are developed.
 
-You can define custom logic blocks, combine them, and simulate logical outcomes step-by-step.
+Its logic-oriented design provides an initial direction for the language, with potential applications in boolean logic, logic gates, and digital circuit simulation.
 
+## Development Roadmap
 
-###  Development Plan
+1. **Language Design** — Define the language's goals, syntax, grammar, and core semantics.
+2. **Lexer** — Convert source code into a sequence of tokens.
+3. **Parser** — Analyze tokens according to the language grammar and construct an Abstract Syntax Tree (AST).
+4. **Interpreter** — Evaluate the AST and execute LogiLang programs.
+5. **Language Evolution** — Introduce variables, expressions, control flow, functions, and additional language features as the implementation progresses.
+6. **Documentation and Examples** — Document the language syntax, behavior, and implementation decisions.
+7. **Compiler Exploration** — Explore compilation, intermediate representations, and code generation.
+8. **Frontend Editor** — Develop a graphical environment for writing and experimenting with LogiLang programs.
 
-1. Theoretical design
-2. Lexer
-3. Parser
-4. Interpreter
-5. Language improvements
-6. Documentation and examples
-7. Frontend editor
+## Project Goals
 
+* Learn programming language design and implementation through practical development.
+* Understand the internal workings of lexers, parsers, ASTs, interpreters, and compilers.
+* Build the language incrementally, starting from fundamental concepts and progressing toward more advanced features.
+* Explore boolean algebra and digital logic through a logic-oriented language.
+* Develop a solid foundation in compiler theory and language tooling.
 
-### Project Goals
+## Project Status
 
-* Learn and experiment with **language design** and **compiler/interpreter building**.
-* Explore **logic-based computation** for educational and simulation purposes.
-* Provide **a minimal but expressive syntax** for logical reasoning.
+LogiLang is a personal learning project under active development. Its syntax, features, and architecture may evolve throughout the learning process.
 
-
-### Contribution
-
-LogiLang is an **open-source** project.
-You are welcome to:
-
-* Improve the grammar or syntax.
-* Extend the interpreter or add a compiler backend.
-* Contribute documentation or examples.
+The initial focus is on building the language's core components from scratch before expanding its capabilities or developing additional tools.
 
 ---
 
+# ⚙️ LogiLang — بناء لغة برمجة من الصفر
 
+## نظرة عامة
 
-# ⚙️ LogiLang — لغة برمجة موجهة للمنطق
+**LogiLang** هو مشروع تعليمي مفتوح المصدر يهدف إلى تعلم كيفية تصميم وبناء لغة برمجة بالكامل من الصفر.
 
-### نظرة عامة
+يمثل المشروع تجربة عملية في تصميم لغات البرمجة، ونظرية المترجمات، وتقنيات التحليل النحوي، وتنفيذ اللغات. ويغطي المراحل الأساسية لبناء لغة برمجة، بدءًا من تحديد قواعدها النحوية ودلالاتها، وصولًا إلى بناء مفسّر، مع استكشاف إمكانية تطوير مترجم لاحقًا.
 
-**LogiLang** هي لغة برمجة مفتوحة المصدر تهدف إلى **تعليم المنطق** و**محاكاة الدوائر الرقمية** بطريقة مبسطة وواضحة.
-تساعد المتعلمين على فهم كيفية عمل **بوابات المنطق (Logic Gates)** و**الجبر البولياني** من خلال كتابة أكواد منطقية مباشرة.
+تعتمد LogiLang على توجه موجه للمنطق، مما يوفر أساسًا عمليًا للتجربة مع التعبيرات البوليانية والعمليات المنطقية ومفاهيم الدوائر الرقمية.
 
-اللغة هي **تجربة تعليمية** في تصميم اللغات وبناء المفسرات (Interpreters) والمترجمات (Compilers).
+## الفكرة
 
-### الفكرة
+الهدف الأساسي من LogiLang هو فهم كيفية عمل لغات البرمجة داخليًا، وذلك من خلال بناء مكوناتها الأساسية يدويًا، بدلًا من الاعتماد على أطر عمل جاهزة أو مولدات المحللات النحوية.
 
-تركز LogiLang على **التفكير المنطقي** و**تقييم القيم البوليانية** بدلًا من العمليات البرمجية التقليدية.
-يمكنك من خلالها تعريف دوال منطقية (Logic Blocks) وربطها ببعضها لمحاكاة دوائر منطقية معقدة.
+ستبدأ اللغة بمجموعة بسيطة من الإمكانات، ثم تتطور تدريجيًا مع بناء الـ Lexer والـ Parser والمفسّر.
 
+يوفر التوجه المنطقي للغة مجالًا أوليًا للتجربة، مع إمكانية استخدامه في التعبيرات البوليانية، وبوابات المنطق، ومحاكاة الدوائر الرقمية مستقبلًا.
 
-### مراحل التطوير
+## مراحل التطوير
 
-1. التصميم النظري
-2. بناء الـ Lexer
-3. بناء الـ Parser
-4. بناء المفسر (Interpreter)
-5. تحسين اللغة
-6. التوثيق والأمثلة
-7. بناء واجهة المستخدم (Frontend)
+1. **تصميم اللغة** — تحديد أهداف اللغة وصياغتها النحوية وقواعدها ودلالاتها.
+2. **بناء Lexer** — تحويل الشيفرة المصدرية إلى سلسلة من الرموز (Tokens).
+3. **بناء Parser** — تحليل الرموز وفق قواعد اللغة وإنشاء شجرة بناء مجردة (AST).
+4. **بناء المفسّر (Interpreter)** — تقييم شجرة AST وتنفيذ برامج LogiLang.
+5. **تطوير اللغة** — إضافة المتغيرات والتعبيرات والتحكم في التدفق والدوال وغيرها من الإمكانات تدريجيًا.
+6. **التوثيق والأمثلة** — توثيق قواعد اللغة وسلوكها والقرارات التصميمية.
+7. **استكشاف بناء المترجم (Compiler)** — دراسة الترجمة والتمثيلات الوسيطة وتوليد الشيفرة.
+8. **بناء محرر رسومي (Frontend Editor)** — تطوير بيئة رسومية لكتابة برامج LogiLang وتجربتها.
 
+## أهداف المشروع
 
-###  أهداف المشروع
+* تعلم تصميم لغات البرمجة وتنفيذها من خلال التطبيق العملي.
+* فهم آلية عمل الـ Lexer والـ Parser وشجرة AST والمفسّرات والمترجمات.
+* بناء اللغة تدريجيًا انطلاقًا من المفاهيم الأساسية وصولًا إلى الإمكانات المتقدمة.
+* استكشاف الجبر البولياني والمنطق الرقمي من خلال لغة موجهة للمنطق.
+* تكوين أساس عملي متين في نظرية المترجمات وأدوات تطوير اللغات.
 
-* التعلم العملي لتصميم اللغات.
-* بناء مفسر بسيط للعمليات المنطقية.
-* تسهيل فهم الجبر البولياني والمحاكاة المنطقية للطلاب والمبرمجين.
+## حالة المشروع
 
+LogiLang مشروع تعليمي شخصي مفتوح المصدر قيد التطوير. قد تتغير قواعد اللغة وإمكاناتها وبنيتها الداخلية مع تقدم عملية التعلم والتطوير.
 
-### المساهمة
-
-هذا المشروع **مفتوح المصدر** ويمكن لأي شخص المشاركة في:
-
-* تطوير القواعد النحوية (Grammar).
-* تحسين أداء المفسر أو المترجم.
-* كتابة وثائق أو أمثلة جديدة.
-
+ينصب التركيز الأولي على بناء المكونات الأساسية للغة من الصفر، قبل توسيع إمكاناتها أو تطوير أدوات إضافية حولها.
